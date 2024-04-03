@@ -1,4 +1,4 @@
-# machine_learning_project-supervised-learning
+# Supervised Machine Learning Project : Diabetes Predictive Model
 
 By: Brigitte Sullivan</br>
 Submitted on: Wednesday November 1, 2023</br>
@@ -31,12 +31,12 @@ The steps performed in this project were
     * one DecisionTree (as baseline), followed by Random Forrest with hyperparameter tuning using GridSearchCV.
 * Compare their performance using appropriate evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 
-4. Conclusion (Summary of Findings)
-Here are a few findings from the analysis conducted:
+4. Conclusion (Summary of Findings)</br>
+Here are a few findings from the analysis conducted:</br>
     **1. Finding 1: How to select the best model? And Which model is 'best'?**
 * 
     * In this scenario, we want to favour the model that best predicts if someone has diabetes. More specifically, we want the model that best diagnoses diabetes correctly. We are less concerned about corectly predicting if someone does not have diabetes. Since Recall is the metric that measures how often the model correctly predicted that someone did have diabetes. The model with the highest recall value will be the 'best' model. In this case, the random forest model performed slightly beter than the logistic regression model. 
-    * A recall score of 58% indicates the model is decent at predicting diabetes. Coupled with a realistic accuracy score of 74%, the optimized Random Forest model performs well for our purposes. Though the baseline Random Forest performs nearly just as well</br>
+    * A recall score of 58% indicates the model is moderately good at predicting diabetes. Coupled with a realistic accuracy score of 74%, the optimized Random Forest model performs well for our purposes. Though the baseline Random Forest performs nearly just as well</br>
 
     **2. Finding 2: Why is precision higher than recall for Outcome = 1**</br>
     * Precision is higher than recall in the logistic regression model for example because it incorrectly predicted someone having diabetes 48 times, compared to 36 correct predictions of diabetes. 
