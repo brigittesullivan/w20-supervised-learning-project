@@ -11,7 +11,7 @@ Lighthouse Labs Data Science Program</br>
 2. Compare the results of the different models and determine the best performing model at predicting whether a patient has diabetes. 
 
 
-### Project Description:
+## Project Description:
 
 In this project, I will apply supervised learning techniques to a real-world data set and use data visualization tools to communicate the insights uncovered from the analysis.
 
@@ -31,7 +31,7 @@ The steps performed in this project were
     * one DecisionTree (as baseline), followed by Random Forrest with hyperparameter tuning using GridSearchCV.
 * Compare their performance using appropriate evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 
-4. Conclusion (Summary of Findings)</br>
+## Conclusion (Summary of Findings)</br>
 Here are a few findings from the analysis conducted:</br>
     **1. Finding 1: How to select the best model? And Which model is 'best'?**
 * 
